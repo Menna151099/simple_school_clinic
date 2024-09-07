@@ -1,0 +1,178 @@
+body{
+    height: 2000px;
+}
+
+/* startheader */
+.header{
+    background-image: url(../img/download.jpg);
+    height: 700px;
+    background-size: cover;
+}
+
+.nav-link{
+    color: white !important;
+    font-family: cursive;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.btn btn-danger{
+    background-color: #ed7c6a;
+    color: white;
+}
+
+.textheader{
+    background-color: #6dab94ae;
+    border-radius: 8px;
+    margin-top: 150px;
+    margin-left: 185px;
+}
+
+.textheader:hover{
+    background-color: #3c5e51;
+}
+
+.textheader h2{
+    color: white;
+    font-family: cursive;
+    line-height: 1.5;
+    font-size: 49px;
+}
+/* endheader */
+
+/* start section clinic-doctor */
+.title-clinic{
+    font-size: 30px;
+    font-family: cursive;
+    color: #478798;
+    text-align: center;
+}
+
+hr{
+    width: 181px;
+    height: 3px;
+    text-align: center;
+    margin: auto;
+    color: #e98317;
+}
+
+.content-clinic{
+    margin-top: 155px;
+    font-family: cursive;
+}
+
+.content-clinic h3{
+   color: #74a3a2; 
+}
+
+/* end section clinic-doctor */
+
+/* start section clinic-affairs  */
+
+.toch{
+    background-image: linear-gradient(to right bottom , rgba(95, 163, 158 ,0.536) ,rgba(75, 147, 147 ,0.607)) , url(../img/doctor.jpg);
+    height: 100vh;
+    background-size: cover ;
+    transform: skewY(-2deg);
+}
+
+.toch .container-fluid{
+    transform: skewY(2deg);
+}
+
+.title-toch h2{
+    color: white;
+    font-family: cursive;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.card{
+    height: 330px;
+    margin: 55px 0px 55px 75px;
+    padding: 10px;
+
+}
+
+.container-fluid h5{
+    color: #209694; 
+    font-size: 18px;
+}
+
+/* end section clinic-affairs  */
+
+/* start section clinic-members*/
+.members {
+    height: 15vh;
+    margin: 100px;
+}
+
+/* end section clinic-members */
+
+/* startfooter */
+footer {
+    background-color: rgb(15, 123, 82);
+    color: white;
+    border-radius: 150px 150px 0 0;
+    padding: 20px;
+}
+
+.footerone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footerone h3 {
+    color: aliceblue;
+}
+
+.footerone .right {
+    text-align: center;
+}
+
+.footerone .right p {
+    padding: 20px;
+    width: 100%;
+}
+
+.footerone .left {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.left p {
+    margin-bottom: 10px; 
+    line-height: 2;
+}
+
+.footerone .left p span {
+    color: rgb(228, 131, 57);
+}
+
+.footertwo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footertwo .iconfooter i {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+/* endfooter */
+
+
+
+
+
+
+
+
+
+
+
+
+
